@@ -15,13 +15,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import subprocess,os
+# import subprocess,os
 
-read_the_docs_build = os.environ.get('READTHEDOC',None) == 'True'
+# read_the_docs_build = os.environ.get('READTHEDOC',None) == 'True'
 
-if read_the_docs_build:
+# if read_the_docs_build:
 
-    subprocess.call('cd ./; doxygen', shell=True)
+    # subprocess.call('cd ./; doxygen', shell=True)
 
 # -- Project information -----------------------------------------------------
 
